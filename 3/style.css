@@ -1,0 +1,19 @@
+body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    padding: 10px;
+    border: solid lightgray;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: auto;
+    display: block;
+}

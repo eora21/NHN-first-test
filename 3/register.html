@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>register.html</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <script src="./main.js"></script>
+    </head>
+    <body>
+        <h1>회원가입</h1>
+        <form action="" onsubmit="return doSignUp(event)">
+            <table>
+                <tr>
+                    <td>
+                        아이디
+                    </td>
+                    <td>
+                        <input type="text" id="id" value="eora21" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        이름
+                    </td>
+                    <td>
+                        <input type="text" id="name" value="김주호" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        비밀번호1
+                    </td>
+                    <td>
+                        <input type="password" id="password1" value="1234" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        비밀번호2
+                    </td>
+                    <td>
+                        <input type="password" id="password2" value="1234" required>
+                    </td>
+                </tr>
+            </table>
+            <input class="btn" type="submit" value="등록">
+        </form>
+    </body>
+</html>
